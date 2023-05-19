@@ -1,0 +1,97 @@
+body{
+    font-family: arial, sans-serif;
+    background: #1A4A5A;
+    margin: 0;
+}
+
+.header1{
+    /*background-image: url('/Inicio/img/hedear.jpg');*/
+    /* height: 250px; /*altura*/
+    /*background-position: right center; /* alinhamento na direita e centro*/
+    /*background-size: cover; /*preenchimento da imagem inteiro*/
+    /*max-width: 1400px; /*limitando o tamanho da imagem*/
+    margin: auto;
+    border-top: 2px solid transparent;
+    background-color: rgb(24, 21, 73);
+}
+
+.header1 nav ul{
+    text-align: right;
+    margin: 0px 50px 0 0;
+}
+
+#logotipo{
+    margin-right: 150px;
+    max-width:700px;
+    background-position: left;
+    border: none;
+
+}
+.header1 nav li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 0px; /* aumentar espaço entre as LI*/
+}
+.header1 nav a{
+    color: white;
+    background-color: rgba(51, 44, 44, 0.2);
+    display: inline-block;
+    padding: 15px; /*aumenta a caixa */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.header1 nav a:hover{
+    background-color: rgba(51, 44, 44, 0.7); 
+}
+
+.kontrola-content{
+    text-align: center;
+    color: rgb(21, 21, 31);
+    margin-top: 10px;
+}
+
+.kontrola-content h1{
+    text-transform: uppercase; /*deixando a fonte do h1 em maiusculo*/
+    font-size: 25px;
+    text-shadow: 3px 3px 4px rgb(175, 169, 169); /* 1 parametro eixo x, 2 eixo y, 3 esfumaçamento, 4 cor da sombra*/
+}
+
+main{
+    width: 80%; /* largura*/
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.card{
+    margin-left: 60px;  
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content-section img{
+    max-width: 400px;
+    height: 300px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(77, 76, 76);
+    height: 50px;
+    text-shadow: 3px 3px 4px black;
+    background-position: right center;
+    line-height: 50px; /*pode usar o padding-top para centralizar ou usar esse metodo, mas tem que ser o mesmo valor que o height*/
+}
+
